@@ -20,6 +20,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/syntastic'
+Plug 'ap/vim-css-color'
 " Ends plug call
 call plug#end()
 " Allows jk to be bound to escape, better ergonomics 
