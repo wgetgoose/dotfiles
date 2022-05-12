@@ -14,10 +14,6 @@ function upall {
     winget upgrade --all
 }
 
-function vscodium {
-    param([string]$path)
-    Start-Process -WindowStyle hidden -FilePath "codium" -ArgumentList "$path"
-}
-
 Set-Alias grep findstr
 Set-Alias ll ls
+Set-Alias vscodium codium.cmd
