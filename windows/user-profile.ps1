@@ -17,3 +17,6 @@ function upall {
 Set-Alias grep findstr
 Set-Alias ll ls
 Set-Alias vscodium codium.cmd
+
+# Fixes launch bug with unexpected spaces, see here => https://github.com/JanDeDobbeleer/oh-my-posh/issues/1029
+clear
