@@ -1,0 +1,7 @@
+[credendial]
+	helper = manager-core
+[user]
+	name = wgetgoose
+	email = louiscarsonferreira@gmail.com
+[init]
+	defaultBranch = main
