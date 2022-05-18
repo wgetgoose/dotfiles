@@ -31,4 +31,5 @@ Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
 }
 
 # Fixes launch bug with unexpected spaces, see here => https://github.com/JanDeDobbeleer/oh-my-posh/issues/1029
-clear
+# 5-18 Seems to be fine
+# clear
