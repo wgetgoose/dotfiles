@@ -108,6 +108,7 @@ zstyle ':completion:*' list-colors
 
 # Auto-Launch ssh-agent in WSL Debian
 eval `ssh-agent -s` 
+ssh-add
 
 # VSCodium Alias in WSL Debian
 alias vscodium="codium"
