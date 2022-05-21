@@ -72,10 +72,6 @@ DISABLE_LS_COLORS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-
-# Disables permission errors for completion
-ZSH_DISABLE_COMPFIX="true"
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -107,5 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# tmux 256 colors
-export TERM=screen-256color
+# Tab-Complete color highlighting
+zstyle ':completion:*' list-colors
+
+# Auto-Launch ssh-agent in WSL Debian
+eval `ssh-agent -s`
+ssh-add
