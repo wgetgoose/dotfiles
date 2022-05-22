@@ -14,7 +14,9 @@ function upall {
     winget upgrade --all
 }
 
-Set-Alias grep findstr
+# I hate findstring, to BusyBox Grep we go
+# Set-Alias grep findstr
+
 Set-Alias ll ls
 Set-Alias vscodium codium.cmd
 
