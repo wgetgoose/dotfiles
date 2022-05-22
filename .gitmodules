@@ -1,0 +1,6 @@
+[submodule "linux/prezto"]
+	path = linux/prezto
+	url = https://github.com/wgetgoose/prezto
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/wgetgoose/prezto.git
