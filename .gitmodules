@@ -2,5 +2,5 @@
 	path = linux/prezto
 	url = https://github.com/wgetgoose/prezto
 [submodule "prezto"]
-	path = prezto
+	path = linux/zsh/prezto
 	url = https://github.com/wgetgoose/prezto.git
