@@ -1,0 +1,12 @@
+Host Myia
+    HostName 192.168.1.55
+    User pi
+Host Acrion
+    HostName 192.168.1.56
+    User ubuntu
+Host Damo
+    HostName 192.168.1.57
+    User ubuntu
+Host Antec
+    HostName 192.168.1.58
+    User root
