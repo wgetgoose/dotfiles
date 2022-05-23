@@ -15,7 +15,7 @@ function upall {
     winget upgrade --all
 }
 
-# I hate findstring, to BusyBox Grep we go
+# I hate findstring, to BusyBox grep we go
 # Set-Alias grep findstr
 
 Set-Alias ll ls
@@ -33,5 +33,5 @@ Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
 }
 
 # Fixes launch bug with unexpected spaces, see here => https://github.com/JanDeDobbeleer/oh-my-posh/issues/1029
-# 5-18 Seems to be fine
-# clear
+# 5-23 Broken again 
+clear
