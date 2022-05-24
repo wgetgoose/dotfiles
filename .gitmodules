@@ -1,3 +1,4 @@
 [submodule "prezto"]
 	path = linux/zsh/prezto
 	url = https://github.com/wgetgoose/prezto.git
+	update = merge
