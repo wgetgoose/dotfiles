@@ -21,6 +21,9 @@ function upall {
 Set-Alias ll ls
 Set-Alias vscodium codium.cmd
 
+# BusyBox rm instead of Windows native
+Set-Alias rm rm.exe
+
 # Tab-Complete / Autocomplete for winget: https://github.com/microsoft/winget-cli/blob/master/doc/Completion.md
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     param($wordToComplete, $commandAst, $cursorPosition)
