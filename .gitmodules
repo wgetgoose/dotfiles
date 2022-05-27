@@ -2,3 +2,6 @@
 	path = linux/zsh/prezto
 	url = https://github.com/wgetgoose/prezto.git
 	update = merge
+[submodule "linux/fedora/gnome-terminal"]
+	path = linux/fedora/gnome-terminal
+	url = https://github.com/dracula/gnome-terminal.git
