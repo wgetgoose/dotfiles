@@ -5,3 +5,6 @@
 [submodule "linux/fedora/gnome-terminal"]
 	path = linux/fedora/gnome-terminal
 	url = https://github.com/dracula/gnome-terminal.git
+[submodule "linux/fedora/gtk"]
+	path = linux/fedora/gtk
+	url = https://github.com/dracula/gtk.git
