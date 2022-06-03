@@ -1,0 +1,25 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Source set of LS_COLORS from https://github.com/trapd00r/LS_COLORS
+source ~/lscolors.sh
+
+# ZSH uses LS_COLORS above for tab-complete
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+
+# WSL ONLY: Use VPNKit for wireguard compatability
+# wsl.exe -d wsl-vpnkit service wsl-vpnkit start
