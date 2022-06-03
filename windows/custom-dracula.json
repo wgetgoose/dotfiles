@@ -36,13 +36,13 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "branch_icon": "",
-            "fetch_stash_count": false,
+            "fetch_stash_count": true,
             "fetch_status": true,
             "fetch_upstream_icon": true,
             "display_status": true
           },
           "style": "powerline",
-          "template": " \u279c ({{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}){{.BranchStatus}}",
+          "template": " \u279c ({{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}) Staging:{{ .Staging }} Working:{{ .Working }}",
           "type": "git"
         },
         {
