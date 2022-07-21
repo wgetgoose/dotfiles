@@ -2,14 +2,14 @@ Host Myia
     HostName 192.168.1.55
     User pi
 Host Acrion
-    HostName 192.168.1.56
+    HostName 192.168.0.120
     User ubuntu
 Host Damo
-    HostName 192.168.1.57
+    HostName 192.168.0.119
     User ubuntu
 Host Antec
-    HostName 192.168.1.58
+    HostName 192.168.0.108
     User root
 Host Amelius
-    HostName 192.168.1.59
+    HostName 192.168.0.118
     User ubuntu
