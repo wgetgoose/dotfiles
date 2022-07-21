@@ -1,5 +1,5 @@
 Host Myia
-    HostName 192.168.1.180
+    HostName 192.168.0.180
     User pi
 Host Acrion
     HostName 192.168.0.120
