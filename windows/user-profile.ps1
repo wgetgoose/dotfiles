@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config $env:USERPROFILE\coding\dotfiles\windows\custom-dracula.json | Invoke-Expression
+oh-my-posh init pwsh --config $env:USERPROFILE\dotfiles\windows\custom-dracula.json | Invoke-Expression
 
 Import-Module PSReadLine
 Set-PSReadLineOption -BellStyle None
