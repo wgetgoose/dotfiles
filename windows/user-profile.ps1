@@ -24,6 +24,9 @@ Set-Alias vscodium codium.cmd
 # BusyBox rm instead of Windows native
 Set-Alias rm rm.exe
 
+# Use faster scoop-search application, see https://github.com/shilangyu/scoop-search
+Invoke-Expression (&scoop-search --hook)
+
 # Tab-Complete / Autocomplete for winget: https://github.com/microsoft/winget-cli/blob/master/doc/Completion.md
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     param($wordToComplete, $commandAst, $cursorPosition)
