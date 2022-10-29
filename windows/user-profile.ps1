@@ -37,7 +37,3 @@ Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
             [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
         }
 }
-
-# Fixes launch bug with unexpected spaces, see here => https://github.com/JanDeDobbeleer/oh-my-posh/issues/1029
-# 5-23 Broken again 
-clear
