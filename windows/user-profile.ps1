@@ -11,8 +11,8 @@ Set-PSReadLineOption -EditMode Emacs
 Import-Module Terminal-Icons
 
 function upall {
-    scoop update *
-    winget upgrade --all
+    sudo scoop update *
+    sudo winget upgrade --all
 }
 
 # I hate findstring, to BusyBox grep we go
